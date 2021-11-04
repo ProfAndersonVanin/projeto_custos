@@ -1,3 +1,11 @@
+# Para instalar as dependências de um projeto, navegue na pasta raiz do aplicativo e execute:
+npm install
+
+Você verá uma barra de progresso quando o npm começar a baixar as dependências e uma node_modules/pasta será criada no diretório raiz do projeto. Um package-lock.jsonarquivo também será criado, se ainda não houver nenhum no projeto. Verifique o artigo - O que é package-lock.json , se você não estiver familiarizado com este arquivo.
+
+Basicamente executando npm install(sem argumentos) lê a lista de dependências do package.jsoncom as versões de pacote aplicáveis ​​e bloqueios de versão ( package-lock.json), baixa as dependências e as coloca na node_modules/pasta. Depois que as dependências são adicionadas à node_modulespasta, elas são encontradas pelo aplicativo.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
